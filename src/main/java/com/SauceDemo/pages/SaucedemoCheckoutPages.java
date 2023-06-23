@@ -1,4 +1,4 @@
-package com.atmosol.pages;
+package com.SauceDemo.pages;
 
 import org.apache.xmlbeans.impl.xb.xsdschema.Public;
 import org.openqa.selenium.By;

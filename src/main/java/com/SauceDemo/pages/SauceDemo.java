@@ -1,4 +1,4 @@
-package com.atmosol.pages;
+package com.SauceDemo.pages;
 
 import java.time.Duration;
 import java.util.ArrayList;
@@ -10,6 +10,7 @@ import java.util.Map.Entry;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -18,7 +19,7 @@ import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 import org.testng.asserts.SoftAssert;
 
-public class Atmosol {
+public class SauceDemo {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -33,6 +34,8 @@ public class Atmosol {
 		driver.findElement(By.xpath("//input[@name='user-name']")).sendKeys("standard_user");
 		driver.findElement(By.xpath("//input[@name='password']")).sendKeys("secret_sauce");
 		driver.findElement(By.xpath("//input[@name='login-button']")).click();
+	
+		driver.switchTo().frame(1);
 
 		//2. Click on Open Menu button on the top left corner (Its a small box with 3 lines) 
 		driver.findElement(By.xpath("//button[text()='Open Menu']")).click();

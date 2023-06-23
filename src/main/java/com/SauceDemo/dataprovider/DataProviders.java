@@ -1,4 +1,4 @@
-package com.atmosol.dataprovider;
+package com.SauceDemo.dataprovider;
 
 import java.io.IOException;
 

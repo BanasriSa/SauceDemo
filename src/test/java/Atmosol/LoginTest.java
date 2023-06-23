@@ -6,12 +6,11 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
-import com.atmosol.base.BaseClass;
-import com.atmosol.pages.SaucedemoCheckoutPages;
-import com.atmosol.pages.SaucedemoLoginPages;
-import com.atmosol.pages.SaucedemoProductPage;
-
-import com.atmosol.dataprovider.DataProviders;
+import com.SauceDemo.base.BaseClass;
+import com.SauceDemo.dataprovider.DataProviders;
+import com.SauceDemo.pages.SaucedemoCheckoutPages;
+import com.SauceDemo.pages.SaucedemoLoginPages;
+import com.SauceDemo.pages.SaucedemoProductPage;
 
 public class LoginTest extends BaseClass {
 	SaucedemoLoginPages loginpage;

@@ -1,4 +1,4 @@
-package com.atmosol.factory;
+package com.SauceDemo.factory;
 
 import java.time.Duration;
 import java.util.HashMap;

@@ -1,4 +1,4 @@
-package com.atmosol.pages;
+package com.SauceDemo.pages;
 
 import java.util.List;
 
@@ -66,6 +66,10 @@ public class SaucedemoProductPage {
 	public void SelectSortProduct() {
 		WebElement sortList = driver.findElement(sortproduct);
 		Select select = new Select(sortList);
+		List<WebElement> selectlist= select.getOptions();
+		for (WebElement option : selectlist) {
+			System.out.println(option.getText());
+		}
 		 select.selectByVisibleText("Price (high to low)");
 	}
 
@@ -84,7 +88,6 @@ public class SaucedemoProductPage {
 			System.out.println(nameElements.get(i).getText());
 			// select 1st highest item
 			nameElements.get(0).click();
-
 		}
 	}
 

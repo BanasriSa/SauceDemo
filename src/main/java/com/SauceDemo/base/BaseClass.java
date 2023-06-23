@@ -1,4 +1,4 @@
-package com.atmosol.base;
+package com.SauceDemo.base;
 
 import java.io.File;
 import java.io.IOException;
@@ -14,8 +14,8 @@ import org.openqa.selenium.io.FileHandler;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 
-import com.atmosol.dataprovider.ConfigUtlity;
-import com.atmosol.factory.BrowserFactory;
+import com.SauceDemo.dataprovider.ConfigUtlity;
+import com.SauceDemo.factory.BrowserFactory;
 
 public class BaseClass {
 
