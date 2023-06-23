@@ -1,4 +1,4 @@
-package Atmosol;
+package SauceDemo;
 
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
