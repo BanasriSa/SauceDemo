@@ -3,16 +3,16 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Atmosol.LoginTest">
+      <class name="SauceDemo.LoginTest">
         <methods>
+          <include name="pagecall"/>
+          <include name="productPageCall"/>
           <include name="setup"/>
+          <include name="tearDown"/>
           <include name="productCheckoutCall"/>
           <include name="AllProduct"/>
-          <include name="tearDown"/>
-          <include name="productPageCall"/>
-          <include name="pagecall"/>
         </methods>
-      </class> <!-- Atmosol.LoginTest -->
+      </class> <!-- SauceDemo.LoginTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
